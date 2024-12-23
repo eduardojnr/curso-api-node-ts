@@ -1,0 +1,10 @@
+1- Repositório
+Adicionar `node_modules` ao .gitignore
+
+
+2- Setup
+`npm init`
+`npm install express` - biblioteca que facilita a criação de APIs REST
+`npm install --save-dev @types/express` 
+`npm install esrun` - biblioteca para executar TS como JS
+    Para executar: `npm esrun .\path.ts`
