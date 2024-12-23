@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec npx esrun src/index.ts"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "esrun": "^3.2.26",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "http-status-codes": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }

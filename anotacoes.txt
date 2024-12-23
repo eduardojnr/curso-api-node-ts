@@ -1,10 +1,26 @@
 1- Repositório
-Adicionar `node_modules` ao .gitignore
+Adicionar `node_modules` ao `.gitignore`
 
 
-2- Setup
+2- Insomnia
+Para acompanhar as APIs
+
+
+3- Setup
 `npm init`
 `npm install express` - biblioteca que facilita a criação de APIs REST
 `npm install --save-dev @types/express` 
 `npm install esrun` - biblioteca para executar TS como JS
-    Para executar: `npm esrun .\path.ts`
+`npm install --save-dev nodemon` - biblioteca para fazer o esrun executar o arquivo novamente após alterações
+    Para executar, adicione a linha abaixo aos scripts do `package.json`
+    "start": "nodemon --exec npx esrun src/index.ts"
+    Execute: `npm start`
+`npm i http-status-codes` - biblioteca para o front receber o status-code do serviço (404, 200 etc)
+
+
+4- Tipos de requisições
+`body`
+`header`
+`params`
+`query`
+`cookies`
