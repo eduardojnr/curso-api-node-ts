@@ -11,7 +11,7 @@ router.post('/teste', (req, res) => {
     console.log(req);
 
     // return res.send('Teste de atualização');
-    return res.status(StatusCodes.UNAUTHORIZED).josn(req.body);
+    return res.status(StatusCodes.UNAUTHORIZED).json(req.body);
 });
 
 export { router }

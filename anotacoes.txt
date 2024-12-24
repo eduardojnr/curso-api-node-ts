@@ -1,5 +1,6 @@
 1- Repositório
 Adicionar `node_modules` ao `.gitignore`
+Adicionar `.env` ao `.gitignore`
 
 
 2- Insomnia
@@ -16,6 +17,10 @@ Para acompanhar as APIs
     "start": "nodemon --exec npx esrun src/index.ts"
     Execute: `npm start`
 `npm i http-status-codes` - biblioteca para o front receber o status-code do serviço (404, 200 etc)
+`npm install dotenv --save` - biblioteca para usar variaveis de ambiente .env
+    Para importar no código
+    `require('dotenv').config()`
+    console.log(`${process.env.NOME}`)
 
 
 4- Tipos de requisições
