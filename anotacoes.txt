@@ -21,6 +21,9 @@ Para acompanhar as APIs
     Para importar no código
     `require('dotenv').config()`
     console.log(`${process.env.NOME}`)
+`npm i yup` - biblioteca para ajudar a construir validações de dados
+    Para importar no código
+    `import * as yup from 'yup';`
 
 
 4- Tipos de requisições
@@ -29,3 +32,6 @@ Para acompanhar as APIs
 `params`
 `query`
 `cookies`
+
+
+5- 
